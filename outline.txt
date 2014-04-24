@@ -1,0 +1,27 @@
+https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+
+1) Let the user enter the board size. It must be bigger then 3 by 3!
+
+2) Let the user select the starting values of the board.
+
+3) Let's apply the rules.
+	   Any live cell with fewer than two live neighbours dies, as if caused by under-population.
+    Any live cell with two or three live neighbours lives on to the next generation.
+    Any live cell with more than three live neighbours dies, as if by overcrowding.
+    Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
+
+4) Redraw the board.
+
+5) Apply the rules
+
+....
+
+
+functions:
+
+CreateBoard
+	Draw
+	Reset
+	
+Logic
+	applyRules
